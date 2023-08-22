@@ -2,13 +2,14 @@ import React from 'react'
 
 const studentName= "Tania";
 
- const Student = ({name, url, isGraduate}) => {
+ const Student = ({info}) => {
+    console.log(info)
     return (
     <>
-    <a href={url} target="_blank">
-        <h4>{name}</h4>
+    <a href={info.url} target="_blank">
+        <h4>{info.name}</h4>
     </a>
-    <p>Ex-alumno: {isGraduate.toString()}</p>
+    <p>Ex-alumno: {info.isGraduate.toString()}</p>
     </>
 
     );
