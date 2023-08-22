@@ -28,3 +28,11 @@ const pages = [
     </>
   )
 }
+ export const Footer = () => {
+    return (
+        <>
+            <p>Derechos no reservados 2023.</p>
+            <p>Lo que esta en Mexico, pertenece al pueblo mexicano.</p>        
+        </>
+    )
+}
