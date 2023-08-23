@@ -1,19 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import Greeting from './components/greeting';
+import CounterPage from './components/Counter/counter-page';
 import Generation from './components/generation';
-import {Navbar, Footer} from './navbar/navbar';
-
+import Greeting from './components/greeting';
+import { Footer, Navbar } from './navbar/navbar';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Greeting/>
-      <Generation/>
-      <Footer/>
-      
-    </div>  
+      <Navbar />
+      <CounterPage />
+      {/* <Greeting />
+      <Generation />
+      <Footer /> */}
+    </div>
   );
 }
 
